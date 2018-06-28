@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marebor.Extensions", "Marebor.Extensions\Marebor.Extensions.csproj", "{F41A8DFC-3486-47A9-B98D-924F4DA4ECAF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F41A8DFC-3486-47A9-B98D-924F4DA4ECAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F41A8DFC-3486-47A9-B98D-924F4DA4ECAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F41A8DFC-3486-47A9-B98D-924F4DA4ECAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F41A8DFC-3486-47A9-B98D-924F4DA4ECAF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C961302A-2D3B-4EEF-8794-D60ED5CADE97}
+	EndGlobalSection
+EndGlobal

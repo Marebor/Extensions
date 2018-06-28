@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RepositoryType></RepositoryType>
+    <PackageTags></PackageTags>
+    <Version>1.0.0-dev</Version>
+    <RunPostBuildEvent>Always</RunPostBuildEvent>
+  </PropertyGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="xcopy &quot;$(OutDir)..\*.nupkg&quot; &quot;$(ProjectDir)..\..\..\..\.nuget\packages\**&quot; /y /i" />
+  </Target>
+
+</Project>
