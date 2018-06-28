@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Marebor.Extensions.Type
+﻿namespace Marebor.Extensions.Type
 {
     public static class TypeExtensions
     {
